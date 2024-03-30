@@ -7,16 +7,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     font-size:45px ;
-    font: weight 800px; ;
-    color: black;
+    font: weight 800; 
+    color: #181818;
 }
 .text-primary{
     color: #fd6e0a;;
 }
-nav   > ul {
+nav > ul {
     display: flex;
     align-items: center;
     
@@ -26,6 +27,12 @@ nav li{
     margin-right: 50px;
    
 }
+nav a{
+    color: #474747;
+}
+.header{
+    background-color: #fff8f3;
+}
 .btn-primary{
     border-radius: 5px;
     background: #fd6e0a;
@@ -33,4 +40,15 @@ nav li{
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 34px;
+    border: 0px;
+}
+
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
 }
