@@ -83,10 +83,30 @@ margin-bottom: 20px;
    
     color: #757577;
     text-align: center;
+    
 }
 .about{
     margin:130px 0px ;
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+  
+}
+.ki-korbo{
+    display: flex;
+    justify-content: space-around;
+}
+.ki{
+    text-align: center;
+   
+}
+#sec-des{
+padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
 }
