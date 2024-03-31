@@ -121,6 +121,52 @@ padding: 30px 150px;
    background: #fff;
    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 }
-.resu-ti{
-display: flex;
+.resume-container{
+    display: flex;
+    gap: 50px;
 }
+.res-item-ti{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container-hr{
+    margin: 30px;
+}
+.resu-des{
+color: #757577;
+}
+.resu-item-ins{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+.down-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    gap: 100px;
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 50px;
+    }
+.contact input[type="text"],.contact input[ type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757577;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
+}
+.contact
